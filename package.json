@@ -1,0 +1,16 @@
+{
+  "name": "SercetWEB",
+  "version": "2.0.0",
+  "description": "SerçetWEB serçetin bir web sürümüdür.",
+  "main": "index.js",
+  "author": "Emre KAYIK",
+  "dependencies": {
+    "dahijs": "0.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.0",
+    "socketio-file-upload": "^0.7.2"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}

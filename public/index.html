@@ -1,0 +1,33 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SerçetWEB</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="jquery/css/jquery.notifyBar.css">
+</head>
+<body>
+  <ul class="pages">
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Mesajını buraya yaz..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Kullanıcı Adı:</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="jquery/jquery.notifyBar.js"></script>
+  <script src="jquery/jquery.playSound.js"></script>
+  <script src="jquery/jquery.titlealert.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
