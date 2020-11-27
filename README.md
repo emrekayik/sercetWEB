@@ -1,5 +1,6 @@
 
 # SerçetWEB
+![DEMO](https://github.com/emrekayik/sercetWEB/blob/master/public/logo.svg "DEMO")
 
 SerçetWEB, SERÇET'in WEB sürümüdür. Socket.io ile geliştirilmiştir. 
 
