@@ -1,22 +1,21 @@
 
-# Socket.IO Chat
+# SerçetWEB
 
-A simple chat demo for socket.io
+SerçetWEB, SERÇET'in WEB sürümüdür. Socket.io ile geliştirilmiştir. 
 
-## How to use
+## Nasıl Kullanılır?
 
 ```
-$ npm ci
+$ npm install
 $ npm start
 ```
 
-And point your browser to `http://localhost:3000`. Optionally, specify
-a port by supplying the `PORT` env variable.
+Tarayıcınızda `http://localhost:3000` adresine gidin.
 
-## Features
+## Yenilikler
 
-- Multiple users can join a chat room by each entering a unique username
-on website load.
-- Users can type chat messages to the chat room.
-- A notification is sent to all users when a user joins or leaves
-the chatroom.
+- Gelişmiş bildirim sistemi.
+- Yazıyor bilgisi gösterimi.
+- Otomatik boşluk doldurma.
+- Linkleri tıklanabilir yapma.
+- Ve daha fazlası.
